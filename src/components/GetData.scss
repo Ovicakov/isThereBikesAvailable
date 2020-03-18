@@ -1,0 +1,27 @@
+*  { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.gettyimages.com/vectors/bicycle-vector-id693500826?s=2048x2048);
+}
+
+.container {
+  text-align: center;
+}
+
+.yesOrNoContainer {
+  font-size: 100px;
+  font-weight: 900;
+}
+
