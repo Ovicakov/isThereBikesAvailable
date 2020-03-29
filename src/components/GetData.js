@@ -17,7 +17,7 @@ export default function GetData() {
   return (
     <div className="container">
       <div className="yesOrNoContainer">
-        {bikesAvailable > 5 ? 'OUI' : 'NON'}
+        {bikesAvailable === undefined ? ' ' : bikesAvailable > 5 ? 'OUI' : 'NON'}
       </div>
       <div className="stationContainer">{bikesAvailable} vélos disponibles à la station {bikeStation}</div>
     </div>
